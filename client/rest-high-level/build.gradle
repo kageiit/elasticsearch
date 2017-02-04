@@ -25,7 +25,7 @@ dependencies {
   compile "org.elasticsearch:elasticsearch:${version}"
   compile "org.elasticsearch.client:rest:${version}"
 
-  testCompile "org.elasticsearch.client:test:${version}"
+  testCompile project(':client:test')
   testCompile "org.elasticsearch.test:framework:${version}"
   testCompile "com.carrotsearch.randomizedtesting:randomizedtesting-runner:${versions.randomizedrunner}"
   testCompile "junit:junit:${versions.junit}"

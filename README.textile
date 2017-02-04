@@ -217,6 +217,12 @@ see the "setup reference":
 https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-upgrade.html
 for more details on the upgrade process.
 
+h3. Build with okbuck
+```
+./buckw --version
+./buckw targets --type java_library java_binary java_test | xargs ./buckw build
+```
+
 h1. License
 
 <pre>

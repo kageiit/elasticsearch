@@ -49,3 +49,10 @@ html_docs
 /tmp/
 eclipse-build
 
+# okbuck
+buck-out
+.buckd
+.okbuck
+.buckconfig.local
+**/BUCK
+
